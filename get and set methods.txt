@@ -1,0 +1,125 @@
+
+public class JavaApplication6 {
+
+String FirstName;
+String LastName;
+int Age;
+double Salary;
+String Email;    
+String Gender;
+String UserName;
+String Password;
+String Class;
+String Batch;
+/////////// SET METHODS//////
+
+ void SetFirstName(String name)
+{
+    this.FirstName=name;
+}
+  void SetLastName(String name)
+{
+    this.LastName=name;
+}
+   void SetAge(int age)
+{
+    this.Age=age;
+}
+    void SetSalary(double sal)
+{
+    this.Salary=sal;
+}
+   void SetEmail(String email)
+{
+    this.Email=email;
+}
+    void Setgender(String gender)
+{
+    this.Gender=gender;
+}
+ void SetUserName(String name)
+{
+    this.UserName=name;
+}
+  void SetPassword(String pass)
+{
+    this.Password=pass;
+}
+    void SetClass(String Class)
+{
+    this.Class=Class;
+}
+      void SetBatch(String Batch)
+{
+    this.Batch=Batch;
+}
+  //////////////GET METHODS//////////////////////
+  String getFirstName()
+  {
+  return this.FirstName;
+  }
+  String getLastName()
+  {
+  return this.LastName;
+  }
+  int getAge()
+  { 
+    return this.Age;  
+  }
+
+  double getSal()
+  { 
+    return this.Salary;  
+  }
+  String getEmail()
+  {
+  return this.Email;
+  }
+  String getGender()
+  {
+  return this.Gender;
+  }
+  String getUserName()
+  {
+  return this.UserName;
+  }
+  String getPass()
+  {
+  return this.Password;
+  }
+  String getclass()
+  {
+  return this.Class;
+  }
+  String getBatch()
+  {
+  return this.Batch;
+  }
+
+    public static void main(String[] args) {
+        JavaApplication6 obj=new JavaApplication6();
+        /////set
+        obj.SetFirstName("Hajra");
+        obj.SetLastName("Ahmed");
+        obj.SetAge(24);
+        obj.SetSalary(55000);
+        obj.SetEmail("abc@gmail.com");
+        obj.Setgender("female");
+        obj.SetUserName("abc123");
+        obj.SetPassword("hajra123");
+        obj.SetClass("cs201");
+        obj.SetBatch("1707abc4");
+        ////get
+        System.out.println("First Name is "+obj.getFirstName()); 
+        System.out.println("Last Name is "+obj.getLastName()); 
+        System.out.println("Age is "+obj.getAge()); 
+        System.out.println("Salary is "+obj.getSal()); 
+        System.out.println("Email is "+obj.getEmail()); 
+        System.out.println("Gender is "+obj.getGender()); 
+        System.out.println("User Name is "+obj.getUserName()); 
+        System.out.println("Password is "+obj.getPass()); 
+        System.out.println("Class is "+obj.getclass()); 
+        System.out.println("Batch is "+obj.getBatch()); 
+    
+    }
+}

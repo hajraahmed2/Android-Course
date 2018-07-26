@@ -1,0 +1,38 @@
+public class Assignment {
+ public static void main(String[] args) {
+ 
+     int c=2; //"="
+     String test="Hajra";
+     
+     c+=20;// "+=" it will add 20 in c and store new value in c i.e. 22
+     System.out.format("C is %d\n",c);
+     
+     c-=4;// "-=" it will subtract 4 from c and store new value in c i.e. 18
+     System.out.format("C is %d\n",c);
+     
+      c*=2;// "*=" it will multiply 2 in c and store new value in c i.e. 36
+     System.out.format("C is %d\n",c);
+     
+      c/=4;// "/=" it will divide c by 4 and store new value in c i.e. 9
+     System.out.format("C is %d\n",c);
+     
+     c%=2;// "%=" it will take modulus of c by 2 and store new value in c i.e. 1
+     System.out.format("C is %d\n",c);
+     
+     c<<=1;// "<<=" it will left shift c value once and store new value in c i.e. 2(0010b)
+      System.out.format("C is %d\n",c);
+    
+      c>>=1;// ">>=" it will right shift c value once and store new value in c i.e. 1(0001b)
+      System.out.format("C is %d\n",c);
+      
+      c&=3; //"&=" it will perform AND of c value with 3 and store value in c i.e. 0001b & 0011b =0001b
+      System.out.format("C is %d\n",c);
+      
+      c|=3; //"|=" it will perform OR of c value with 3 and store value in c i.e. 0001b & 0011b =0011b
+      System.out.format("C is %d\n",c);
+      
+      c^=3; //"^=" it will perform XOR of c value with 3 and store value in c i.e. 0011b & 0011b =0000b
+      System.out.format("C is %d\n",c);
+ }
+    
+}

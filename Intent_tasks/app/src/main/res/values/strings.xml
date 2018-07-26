@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Intent_tasks</string>
+    <string name="register">REGISTER</string>
+    <string name="messages">messages</string>
+    <string name="contact">contact</string>
+    <string name="internet">internet</string>
+    <string name="name">ENTER NAME</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="googlemap">GOOGLE MAP</string>
+    <string name="telno">02134590950</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="gallery">GALLERY</string>
+    <string name="calender">CALENDER</string>
+
+</resources>

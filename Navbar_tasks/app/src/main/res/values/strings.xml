@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Navbar_tasks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Online Student Portal</string>
+    <string name="nav_header_subtitle">www.Online Portal.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="front_text">Welcome to The Students Portal! Go to Navigation Bar for further Options !!</string>
+</resources>

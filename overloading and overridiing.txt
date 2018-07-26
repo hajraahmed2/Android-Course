@@ -1,0 +1,41 @@
+///////overloading////////////
+public class JavaApplication6 {
+
+    public void add(int a,int b)
+    {
+        System.out.println("result is "+(a+b));
+    }
+    
+    public void add(int a,int b,int c)
+    {
+        System.out.println("result is "+(a+b+c));
+    }
+        public static void main(String[] args) {
+           
+           JavaApplication6 obj=new JavaApplication6 ();
+           obj.add(2,4);
+           obj.add(3,4,5);
+        }
+}
+
+///////////overriding//////////////
+
+public class JavaApplication6 {
+     public void add(int a,int b)
+    {
+        System.out.println("result is "+(a+b));
+    }
+   public static void main(String[] args) {
+           JavaApplication6 obj=new JavaApplication6 ();
+           obj.add(2,4);
+           A obj2=new A();
+           obj2.add(2,4);
+   }
+}
+class A extends JavaApplication6{
+     @Override
+    public void add(int a,int b)
+    {
+        System.out.println("result is "+((2*a)+b));
+    }
+}

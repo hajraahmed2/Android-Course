@@ -1,0 +1,21 @@
+ public class Pyramid{
+
+public static void main(String[] args) {
+        // TODO code application logic here
+
+int j=5,n=0;
+        int k=0,m=10;
+       // upper half
+        while(m>5){ 
+        for(int q=0;q<=n;q++){System.out.print("*\t"); }
+          System.out.print("\n");
+           m--;n++;
+                 }
+        //lower half
+        while(k<=5){
+        for(int i=0;i<=j;i++){System.out.print("*\t"); }
+          System.out.print("\n");
+           k++;j--;
+                 }
+}
+}
